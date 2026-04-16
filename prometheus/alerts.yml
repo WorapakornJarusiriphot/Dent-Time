@@ -1,0 +1,38 @@
+groups:
+  - name: denttime_alerts
+    rules:
+      - alert: DentTimeFeatureDriftHigh
+        expr: denttime_feature_psi > 0.25
+        for: 1m
+        labels:
+          severity: warning
+        annotations:
+          summary: "DentTime feature drift is high"
+          description: "PSI of one monitored feature is above 0.25"
+
+      - alert: DentTimeMacroF1Drop
+        expr: denttime_macro_f1 < (denttime_macro_f1_baseline - 0.05)
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: "DentTime macro F1 dropped"
+          description: "Current macro F1 is more than 0.05 below baseline"
+
+      - alert: DentTimeUnderEstimationHigh
+        expr: denttime_underestimation_rate > (denttime_underestimation_rate_baseline + 0.05)
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: "DentTime under-estimation rate increased"
+          description: "Risk of scheduling too short is increasing"
+
+      - alert: DentTimeMissingRateHigh
+        expr: denttime_input_missing_rate > 0.10
+        for: 1m
+        labels:
+          severity: warning
+        annotations:
+          summary: "DentTime input missing rate is high"
+          description: "Input quality may be degrading"
