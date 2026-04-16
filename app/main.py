@@ -80,17 +80,17 @@ BASELINE_F1 = Gauge("denttime_macro_f1_baseline", "Offline baseline macro F1")
 BASELINE_UNDER = Gauge("denttime_underestimation_rate_baseline", "Offline baseline under-estimation rate")
 MISSING_RATE = Gauge("denttime_input_missing_rate", "Recent input missing rate")
 
-class PredictRequest(BaseModel):
-    appointment_id: str
-    treatment_class: str
-    tooth_count: int
-    time_of_day: str
-    is_first_case: int
-    doctor_speed_ratio: float
+# class PredictRequest(BaseModel):
+#     appointment_id: str
+#     treatment_class: str
+#     tooth_count: int
+#     time_of_day: str
+#     is_first_case: int
+#     doctor_speed_ratio: float
 
-class ActualRequest(BaseModel):
-    appointment_id: str
-    actual_slot: int
+# class ActualRequest(BaseModel):
+#     appointment_id: str
+#     actual_slot: int
 
 def load_model():
     if not MODEL_PATH.exists():
