@@ -1,5 +1,11 @@
 {
-  "feature_psi": {},
-  "prediction_ratio": {},
+  "feature_psi": {
+    "tooth_count": 10.199580331109381,
+    "is_first_case": 0.0,
+    "doctor_speed_ratio": 13.214798381775587
+  },
+  "prediction_ratio": {
+    "30": 1.0
+  },
   "input_missing_rate": 0.0
 }

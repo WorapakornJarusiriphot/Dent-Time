@@ -139,6 +139,19 @@ const LeftColumn: FunctionComponent<LeftColumnType> = ({
     setIsDoctorMenuOpen(false);
   }, []);
 
+  if (treatmentSymptoms.length === 0) {
+    alert("Please select at least one treatment symptom.");
+    return;
+  }
+  if (!timeOfDay) {
+    alert("Please select time of day.");
+    return;
+  }
+  if (!doctorId) {
+    alert("Please select a doctor from the dropdown.");
+    return;
+  }
+
   return (
     <form
       aria-label="Patient and treatment details"
