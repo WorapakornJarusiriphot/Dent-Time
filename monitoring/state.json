@@ -7,5 +7,8 @@
   "prediction_ratio": {
     "30": 1.0
   },
-  "input_missing_rate": 0.0
+  "input_missing_rate": 0.0,
+  "macro_f1": 1.0,
+  "mae_minutes": 0.0,
+  "underestimation_rate": 0.0
 }
