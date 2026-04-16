@@ -68,21 +68,32 @@ const LeftColumn: FunctionComponent<LeftColumnType> = ({
   }, []);
 
   const handleSubmit = useCallback(
-    if (treatmentSymptoms.length === 0) {
-      alert("Please select at least one treatment symptom.");
-      return;
-    }
-    if (!timeOfDay) {
-      alert("Please select time of day.");
-      return;
-    }
-    if (!doctorId) {
-      alert("Please select a doctor from the dropdown.");
-      return;
-    }
     (e: React.FormEvent) => {
       e.preventDefault();
-      onPredict?.({ treatmentSymptoms: treatmentSymptoms.map((item) => item.symptom), toothNumbers, timeOfDay, doctorId, isFirstCase, notes });
+
+      if (treatmentSymptoms.length === 0) {
+        alert("Please select at least one treatment symptom.");
+        return;
+      }
+
+      if (!timeOfDay) {
+        alert("Please select time of day.");
+        return;
+      }
+
+      if (!doctorId) {
+        alert("Please select a doctor from the dropdown.");
+        return;
+      }
+
+      onPredict?.({
+        treatmentSymptoms: treatmentSymptoms.map((item) => item.symptom),
+        toothNumbers,
+        timeOfDay,
+        doctorId,
+        isFirstCase,
+        notes,
+      });
     },
     [treatmentSymptoms, toothNumbers, timeOfDay, doctorId, isFirstCase, notes, onPredict]
   );

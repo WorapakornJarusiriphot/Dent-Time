@@ -5,7 +5,8 @@
     "doctor_speed_ratio": 13.214798381775587
   },
   "prediction_ratio": {
-    "30": 1.0
+    "30": 0.6666666666666666,
+    "60": 0.3333333333333333
   },
   "input_missing_rate": 0.0,
   "macro_f1": 1.0,
