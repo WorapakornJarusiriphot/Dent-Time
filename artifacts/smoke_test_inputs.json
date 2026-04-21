@@ -1,0 +1,117 @@
+[
+  {
+    "case_id": "smoke_001",
+    "input": {
+      "treatment_class": 20.0,
+      "composite_treatment_flag": 0.0,
+      "has_tooth_no": 0.0,
+      "tooth_count": 0.0,
+      "is_area_treatment": 0.0,
+      "surface_count": 0.0,
+      "total_amount": 990.0,
+      "has_notes": 1.0,
+      "appt_day_of_week": 2.0,
+      "appt_hour_bucket": 12.0,
+      "is_first_case": 0.0,
+      "has_dentist_id": 0.0,
+      "appointment_rank_in_day": 0.0,
+      "clinic_median_duration": 30.0,
+      "clinic_pct_long": 0.08853334291032938,
+      "doctor_median_duration": 30.0,
+      "doctor_pct_long": 0.08853334291032938
+    },
+    "expected_duration_class": 15
+  },
+  {
+    "case_id": "smoke_002",
+    "input": {
+      "treatment_class": 20.0,
+      "composite_treatment_flag": 0.0,
+      "has_tooth_no": 0.0,
+      "tooth_count": 0.0,
+      "is_area_treatment": 0.0,
+      "surface_count": 0.0,
+      "total_amount": 990.0,
+      "has_notes": 1.0,
+      "appt_day_of_week": 2.0,
+      "appt_hour_bucket": 12.0,
+      "is_first_case": 0.0,
+      "has_dentist_id": 0.0,
+      "appointment_rank_in_day": 0.0,
+      "clinic_median_duration": 30.0,
+      "clinic_pct_long": 0.08853334291032938,
+      "doctor_median_duration": 30.0,
+      "doctor_pct_long": 0.08853334291032938
+    },
+    "expected_duration_class": 15
+  },
+  {
+    "case_id": "smoke_003",
+    "input": {
+      "treatment_class": 20.0,
+      "composite_treatment_flag": 0.0,
+      "has_tooth_no": 0.0,
+      "tooth_count": 0.0,
+      "is_area_treatment": 0.0,
+      "surface_count": 0.0,
+      "total_amount": 990.0,
+      "has_notes": 1.0,
+      "appt_day_of_week": 2.0,
+      "appt_hour_bucket": 12.0,
+      "is_first_case": 0.0,
+      "has_dentist_id": 0.0,
+      "appointment_rank_in_day": 0.0,
+      "clinic_median_duration": 30.0,
+      "clinic_pct_long": 0.08853334291032938,
+      "doctor_median_duration": 30.0,
+      "doctor_pct_long": 0.08853334291032938
+    },
+    "expected_duration_class": 15
+  },
+  {
+    "case_id": "smoke_004",
+    "input": {
+      "treatment_class": 0.0,
+      "composite_treatment_flag": 0.0,
+      "has_tooth_no": 0.0,
+      "tooth_count": 0.0,
+      "is_area_treatment": 0.0,
+      "surface_count": 0.0,
+      "total_amount": 1500.0,
+      "has_notes": 0.0,
+      "appt_day_of_week": 2.0,
+      "appt_hour_bucket": 12.0,
+      "is_first_case": 0.0,
+      "has_dentist_id": 0.0,
+      "appointment_rank_in_day": 0.0,
+      "clinic_median_duration": 30.0,
+      "clinic_pct_long": 0.08853334291032938,
+      "doctor_median_duration": 30.0,
+      "doctor_pct_long": 0.08853334291032938
+    },
+    "expected_duration_class": 30
+  },
+  {
+    "case_id": "smoke_005",
+    "input": {
+      "treatment_class": 20.0,
+      "composite_treatment_flag": 0.0,
+      "has_tooth_no": 0.0,
+      "tooth_count": 0.0,
+      "is_area_treatment": 0.0,
+      "surface_count": 0.0,
+      "total_amount": 990.0,
+      "has_notes": 1.0,
+      "appt_day_of_week": 2.0,
+      "appt_hour_bucket": 12.0,
+      "is_first_case": 0.0,
+      "has_dentist_id": 0.0,
+      "appointment_rank_in_day": 0.0,
+      "clinic_median_duration": 30.0,
+      "clinic_pct_long": 0.08853334291032938,
+      "doctor_median_duration": 30.0,
+      "doctor_pct_long": 0.08853334291032938
+    },
+    "expected_duration_class": 15
+  }
+]

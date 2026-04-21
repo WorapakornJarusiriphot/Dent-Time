@@ -1,0 +1,5 @@
+outs:
+- md5: 462d7f2c95d36c45adc9a872487b55fc
+  size: 30764
+  hash: md5
+  path: clinic_profile.json

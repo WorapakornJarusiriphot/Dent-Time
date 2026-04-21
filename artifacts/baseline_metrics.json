@@ -1,4 +1,21 @@
 {
-  "macro_f1": 0.773,
-  "underestimation_rate": 0.15
+  "model_version": "denttime_xgb_v2.0_202604",
+  "eval_period": "Test Set (features \u0e08\u0e32\u0e01 Sun P2)",
+  "macro_f1": 0.4101,
+  "mae_minutes": 8.42,
+  "under_estimation_rate": 0.0961,
+  "class_labels": [
+    15,
+    30,
+    45,
+    60,
+    90,
+    105
+  ],
+  "leakage_note": "\u0e15\u0e31\u0e14 scheduled_duration_min \u0e2d\u0e2d\u0e01\u0e40\u0e1e\u0e23\u0e32\u0e30 correlation=0.977 \u0e01\u0e31\u0e1a label",
+  "degradation_thresholds": {
+    "macro_f1_drop": 0.05,
+    "under_est_rate_max": 0.2,
+    "mae_increase_max": 5
+  }
 }

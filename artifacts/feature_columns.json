@@ -1,0 +1,21 @@
+{
+  "feature_cols": [
+    "treatment_class",
+    "composite_treatment_flag",
+    "has_tooth_no",
+    "tooth_count",
+    "is_area_treatment",
+    "surface_count",
+    "total_amount",
+    "has_notes",
+    "appt_day_of_week",
+    "appt_hour_bucket",
+    "is_first_case",
+    "has_dentist_id",
+    "appointment_rank_in_day",
+    "clinic_median_duration",
+    "clinic_pct_long",
+    "doctor_median_duration",
+    "doctor_pct_long"
+  ]
+}

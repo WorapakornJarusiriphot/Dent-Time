@@ -1,0 +1,5 @@
+outs:
+- md5: aa376f0761894c5a191ff7d846391ee4
+  size: 5712
+  hash: md5
+  path: treatment_dict.json

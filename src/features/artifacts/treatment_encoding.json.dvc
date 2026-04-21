@@ -1,0 +1,5 @@
+outs:
+- md5: 4106f895146571432d091bbbb90743dd
+  size: 455
+  hash: md5
+  path: treatment_encoding.json

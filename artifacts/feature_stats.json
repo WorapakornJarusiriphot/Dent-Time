@@ -1,0 +1,80 @@
+{
+  "treatment_class": {
+    "null_rate": 0.0,
+    "unknown_rate": 0.1446605254179461,
+    "mean": 12.394344783829242
+  },
+  "composite_treatment_flag": {
+    "null_rate": 0.0,
+    "mean": 0.07745395559865204
+  },
+  "has_tooth_no": {
+    "null_rate": 0.0,
+    "mean": 0.2925892007398229
+  },
+  "tooth_count": {
+    "null_rate": 0.0,
+    "mean": 0.22234792029545034
+  },
+  "is_area_treatment": {
+    "null_rate": 0.0,
+    "mean": 0.12387844397756588
+  },
+  "surface_count": {
+    "null_rate": 0.0,
+    "mean": 0.10369492479065286
+  },
+  "total_amount": {
+    "null_rate": 0.0,
+    "mean": 1774.748293678584
+  },
+  "has_notes": {
+    "null_rate": 0.0,
+    "mean": 0.32376830852292793
+  },
+  "appt_day_of_week": {
+    "null_rate": 0.0,
+    "mean": 3.3056917284682195
+  },
+  "appt_hour_bucket": {
+    "null_rate": 0.0,
+    "mean": 5.9036314771917855,
+    "pct_sentinel": 0.10691518971430623
+  },
+  "is_first_case": {
+    "null_rate": 0.0,
+    "mean": 0.031921324977404276
+  },
+  "has_dentist_id": {
+    "null_rate": 0.0,
+    "mean": 0.4777424626048232
+  },
+  "appointment_rank_in_day": {
+    "null_rate": 0.0,
+    "mean": 6.699246410122885
+  },
+  "clinic_median_duration": {
+    "null_rate": 0.0,
+    "mean": 24.74237880610773
+  },
+  "clinic_pct_long": {
+    "null_rate": 0.0,
+    "mean": 0.08859056547895812
+  },
+  "doctor_median_duration": {
+    "null_rate": 0.0,
+    "mean": 27.823118868477916
+  },
+  "doctor_pct_long": {
+    "null_rate": 0.0,
+    "mean": 0.08307318642900635
+  },
+  "scheduled_duration_min": {
+    "null_rate": 0.0,
+    "mean": 27.79022188702736
+  },
+  "duration_class": {
+    "null_rate": 0.0,
+    "mean": 28.380470110793873
+  }
+}
