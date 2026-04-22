@@ -1,28 +1,29 @@
 {
   "feature_psi": {
-    "treatment_class": 15.042934069789862,
-    "composite_treatment_flag": 0.8781660989778866,
+    "treatment_class": 4.79744066553376,
+    "composite_treatment_flag": 0.060109864529795644,
     "has_tooth_no": 10.39775983516138,
     "tooth_count": 12.810405162786331,
     "is_area_treatment": 1.4691007098543662,
     "surface_count": 0.616947499100291,
     "total_amount": 13.40453116288877,
-    "has_notes": 9.840522424581245,
-    "appt_day_of_week": 12.220708899125793,
-    "appt_hour_bucket": 6.36478117071806,
+    "has_notes": 0.07332410046135585,
+    "appt_day_of_week": 9.096452070416177,
+    "appt_hour_bucket": 5.99343876619051,
     "is_first_case": 0.3320822229504347,
     "has_dentist_id": 7.261768771657267,
     "appointment_rank_in_day": 4.974971053860303,
     "clinic_median_duration": 4.535323109434887,
     "clinic_pct_long": 12.443981642430938,
-    "doctor_median_duration": 1.6218173661677706,
-    "doctor_pct_long": 13.270584328427029
+    "doctor_median_duration": 0.3977903273596773,
+    "doctor_pct_long": 4.278025090744663
   },
   "prediction_ratio": {
-    "30": 0.9090909090909091,
-    "60": 0.09090909090909091
+    "15": 0.21428571428571427,
+    "30": 0.7619047619047619,
+    "60": 0.023809523809523808
   },
-  "input_missing_rate": 0.0,
+  "input_missing_rate": 0.15897435897435896,
   "treatment_unknown_rate": 0.0,
   "treatment_unknown_rate_baseline": 0.1446605254179461,
   "appt_hour_bucket_sentinel_rate": 0.0,
