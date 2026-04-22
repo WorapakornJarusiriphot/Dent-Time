@@ -19,8 +19,8 @@
     "doctor_pct_long": 13.270584328427029
   },
   "prediction_ratio": {
-    "30": 0.875,
-    "60": 0.125
+    "30": 0.9,
+    "60": 0.1
   },
   "input_missing_rate": 0.0,
   "treatment_unknown_rate": 0.0,
